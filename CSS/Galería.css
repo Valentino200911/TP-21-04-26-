@@ -1,0 +1,95 @@
+* {
+    background-color: #1574d1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-weight: 495;
+    line-height: 1.25cm;
+    color: white;
+}
+
+body{margin-bottom: 0;  margin-left: 0;
+    margin-right: 0;}
+
+h1 {
+    margin-top: 47.5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 47.25px;
+}
+
+body header div h2,
+header div nav,
+header div nav ul,
+header div nav ul li,
+header div nav ul li a {
+    background-color: rgb(40, 58, 132);
+}
+
+
+body footer,
+body footer h2,
+body footer div,
+body footer div p{
+    background-color: rgb(40, 58, 132);
+    color: wheat;
+}
+
+body footer div p {margin-bottom: 0;  font-weight: bold ;
+    font-size: 14pt;}
+
+p {
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+h1 {
+    color: rgb(248, 248, 248);
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(248, 248, 248);
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+
+header div h2 {
+    color: wheat;
+    margin-bottom: 0;
+}
+
+nav ul li a,
+nav ul li {
+    color: white;
+    font-weight: bold;
+    line-height: 2cm;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14pt;
+}
+
+div nav ul li a {
+    color: wheat;
+    margin-top: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
