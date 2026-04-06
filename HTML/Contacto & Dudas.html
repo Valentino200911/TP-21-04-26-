@@ -12,32 +12,65 @@
 
     <link rel="stylesheet" href="../CSS/Contacto & Dudas.css">
 
+    <script src="https://kit.fontawesome.com/bcffabf171.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
      <header>
 
-        <h1>Cabañas Aguaribay</h1>
+        <h1 class="playwrite-ie-regular">Cabañas Aguaribay</h1>
         
-
         <div>
 
             <nav>
 
-                <h2>Menú</h2>
+                <h2 class="domine-bold">Menú</h2>
 
                 <ul>
 
-                    <li><a href="Página Principal.html" title="Página Principal">Página Principal</a></li>
+                    <li>
+                        <i class="fa-solid fa-bars" style="color: rgb(0, 147, 255);"></i>
 
-                    <li><a href="Cabañas.html" title="Cabañas">Cabañas</a></li>
+                        <a href="Página Principal.html" title="Página Principal" class="domine-bold">Página Principal</a>
+                    </li>
 
-                    <li><a href="Servicios y Ubicación.html" title="Servicios y Ubicación">Servicios y Ubicación</a></li>
+                    <li>
+                        <i class="fa-regular fa-solid fa-house" style="color: rgb(210, 171, 28)";></i>
+                        
+                        <a href="Cabañas.html" title="Cabañas" class="domine-bold">Cabañas</a>
+                    </li>
 
-                    <li><a href="Galería.html" title="Galería">Galería</a></li>
+                    <li>
+                        <i class="fa-duotone fa-solid fa-location-dot" style="color: rgb(191, 36, 36);"></i>
 
-                    <li><a href="#Contacto & Dudas.html" title="Contacto & Dudas">Contacto & Dudas</a></li>
+                        <a href="Servicios y Ubicación.html" title="Servicios y Ubicación" class="domine-bold">Servicios y Ubicación</a>
+                    </li>
+
+                    <li>
+                        <i class="fa-regular fa-camera fa-xl" style="color: rgb(6, 91, 18);"></i>
+
+                        <a href="Galería.html" title="Galería" class="domine-bold">Galería</a>
+                    </li>
+
+                    <li>
+                        <i class="fa-regular fa-envelope" style="color: rgb(187, 86, 77);"></i>
+
+                        <a href="#Contacto & Dudas.html" title="Contacto & Dudas" class="domine-bold">Contacto & Dudas</a>
+                    </li>
                  
                 </ul>
                 
@@ -52,7 +85,7 @@
 
         <section>
 
-            <h2>Para contactarse por medio de esta página, llene el siguiente formulario:</h2>
+            <h2 class="faculty-glyphic-regular">Para contactarse por medio de esta página, llene el siguiente formulario:</h2>
 
             <div>
 
@@ -60,25 +93,113 @@
 
                     <div>
 
-                        <label for="Nombre y Apellido:">Nombre y Apellido:</label>
+                        <label for="Nombre y Apellido:" class="faculty-glyphic-regular">Nombre y Apellido:</label>
 
                         <input type="text" id="Nombre y Apellido:" name="Nombre y Apellido:" placeholder="Escriba aquí">
 
                     </div>
 
-                    <div></div>
+                    <div>
 
-                    <div></div>
+                        <label for="E-mail:" class="faculty-glyphic-regular">E-mail:</label>
 
-                    <div></div>
+                        <input type="email" id="E-mail:" placeholder="Escriba aquí">
 
-                    <div></div>
+                    </div>
 
-                    <div></div>
+                    <div>
+                        
+                        <label for="Número Telefónico:" class="faculty-glyphic-regular">Número Telefónico:</label>
 
-                    <button type="submit" id="send">Enviar</button>
+                        <input type="number" id="Número Telefónico" placeholder="Escriba aquí">
+                    
+                    </div>
 
-                    <button type="reset" id="reset">Reiniciar</button>
+                    <div> 
+
+                        <p style="font-weight: bold ; margin-bottom: 0;" class="faculty-glyphic-regular">Cabaña:</p>
+                        
+                        <label for="Cabaña 1:" class="faculty-glyphic-regular">Cabaña 1</label>
+
+                        <input type="radio" id="Cabaña 1" name="Cabaña" value="1" class="selector">
+
+                        <label for="Cabaña 2:" class="faculty-glyphic-regular">Cabaña 2</label>
+
+                        <input type="radio" id="Cabaña 2" name="Cabaña" value="2" class="selector">
+
+                        <label for="Cabaña 4:" class="faculty-glyphic-regular">Cabaña 4</label>
+
+                        <input type="radio" id="Cabaña 4" name="Cabaña" value="4" class="selector" >
+
+                    </div>
+
+                    <div>
+
+                        <label for="Fecha de Ingreso:" class="faculty-glyphic-regular">Fecha de Ingreso:</label>
+
+                        <input type="date" id="Fecha de Ingreso:" placeholder="Seleccione aquí">
+
+                    </div>
+
+                    <div>
+
+                        <label for="Fecha de Egreso:" class="faculty-glyphic-regular">Fecha de Egreso:</label>
+
+                        <input type="date" id="Fecha de Egreso:" placeholder="Seleccione aquí">
+
+                    </div>
+
+                    <div>
+
+                        <p style="font-weight: bold ; margin-bottom: 0;" class="faculty-glyphic-regular">Número de Acompañante
+                        </p>
+
+                        <p style="font-weight: bold ; margin-bottom: 0; color: #b70d0d;"> <i class="fa-solid fa-triangle-exclamation" style="color: #b70d0d; background-color: #1574d1 ;" ></i>Verifique la Capacidad Máxima de cada Cabaña en el Apartado "Cabañas"
+                        </p>
+
+
+                        <label for="0" class="faculty-glyphic-regular">0</label>
+
+                        <input type="checkbox" id="0" class="selector">
+
+                        <label for="1" class="faculty-glyphic-regular">1</label>
+
+                        <input type="checkbox" id="1" class="selector">
+
+                        <label for="2" class="faculty-glyphic-regular">2</label>
+
+                        <input type="checkbox" id="2" class="selector">
+
+                        <label for="3" class="faculty-glyphic-regular">3</label>
+
+                        <input type="checkbox" id="3" class="selector">
+
+                        <label for="4" class="faculty-glyphic-regular">4</label>
+
+                        <input type="checkbox" id="4" class="selector">
+
+                        <label for="5" class="faculty-glyphic-regular">5</label>
+
+                        <input type="checkbox" id="5" class="selector">
+
+                        <label for="6" class="faculty-glyphic-regular">6</label>
+
+                        <input type="checkbox" id="6" class="selector">
+
+                    </div>
+
+                    <div style="display: flex;">
+
+                        <label for="Comentario:" class="faculty-glyphic-regular" style="vertical-align: middle;">Comentario:</label>
+
+                        <textarea  id="Comentario:" placeholder="Escriba aquí" cols="48" rows="1"></textarea>
+
+                    </div>
+
+
+                    <button type="submit" id="send" class="faculty-glyphic-regular">Enviar</button>
+
+                    <button type="reset" id="reset" class="faculty-glyphic-regular">Reiniciar</button>
 
                 </form>
 
@@ -90,15 +211,15 @@
 
 <br>
 
-    <footer>
+     <footer>
 
-        <h2>Contáctanos</h2>
+        <h2 class="domine-bold">Contáctanos</h2>
 
-        <div>  
+        <div class="domine-bold">  
             
-            <p>Número Telefónico: +54 9 381 ### ####</p>
+            <p class="domine-bold">Número Telefónico: +54 9 381 ### ####</p>
 
-            <p>E-mail: g#######@gmail.com</p> 
+            <p class="domine-bold">E-mail: g#######@gmail.com</p> 
         
         </div>
 

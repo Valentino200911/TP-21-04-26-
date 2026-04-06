@@ -7,17 +7,30 @@
     color: white;
 }
 
+.playwrite-ie-regular {
+  font-family: "Playwrite IE", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.domine-bold{
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.faculty-glyphic-regular {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-}
-
-h1 {
-    margin-top: 47.5px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 47.25px;
 }
 
 body header div h2,
@@ -59,6 +72,10 @@ h1 {
     font-weight: bold;
     text-align: center;
     font-style: italic;
+    margin-top: 47.5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 47.25px;
 }
 
 h2,
@@ -105,9 +122,11 @@ label {
     font-weight: bold;
     margin-left: 5px;
     margin-right: 8px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
 }
 
-input {
+input{
     background-color: antiquewhite;
     width: 8cm;
     height: 1cm;
@@ -117,12 +136,35 @@ input {
     margin-right: 8px;
     color: black;
     font-weight: bold;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
 }
+
+textarea{
+    background-color: antiquewhite;
+    border: solid;
+    border-color: black;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: black;
+    font-weight: bold;
+    margin-top: 1cm;
+    margin-bottom: 0
+    
+}
+
 
 :placeholder-shown {
     font-weight: 500;
     text-align: left;
     color: black;
+}
+
+.selector {
+    height: 15px;
+    width: 30px;
+    cursor: pointer;
+
 }
 
 #send {
@@ -132,11 +174,12 @@ input {
     border: solid;
     border-color: black;
     margin-left: 5px;
-    margin-right: 8px;
+    margin-right: 128px;
     color: black;
     font-weight: bold;
     text-align: center;
     margin-top: 2cm;
+    cursor: pointer;
 }
 
 #reset {
@@ -151,4 +194,12 @@ input {
     font-weight: bold;
     text-align: center;
     margin-top: 2cm;
+    cursor: pointer;
+}
+
+i {
+    font-size: 20pt;
+    margin-right: 5px;
+    background-color: rgb(40, 58, 132);
+    vertical-align: middle;
 }

@@ -10,11 +10,24 @@
 body{margin-bottom: 0;  margin-left: 0;
     margin-right: 0;}
 
-h1 {
-    margin-top: 47.5px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 47.25px;
+.playwrite-ie-regular {
+  font-family: "Playwrite IE", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.domine-bold{
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.faculty-glyphic-regular {
+  font-family: "Faculty Glyphic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 body header div h2,
@@ -53,6 +66,10 @@ h1 {
     font-weight: bold;
     text-align: center;
     font-style: italic;
+    margin-top: 47.5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 47.25px;
 }
 
 h2,
@@ -92,4 +109,11 @@ div nav ul li a {
 nav ul {
     display: flex;
     justify-content: space-evenly;
+}
+
+i {
+    font-size: 20pt;
+    margin-right: 5px;
+    background-color: rgb(40, 58, 132);
+    vertical-align: middle;
 }
