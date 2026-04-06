@@ -31,7 +31,7 @@ body footer h2,
 body footer div,
 body footer div p{
     background-color: rgb(40, 58, 132);
-    color: wheat;
+    color: rgb(255, 255, 255);
 }
 
 body footer div p {margin-bottom: 0;  font-weight: bold ;
