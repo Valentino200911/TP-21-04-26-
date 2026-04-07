@@ -7,27 +7,30 @@
     color: white;
 }
 
-body{margin-bottom: 0;  margin-left: 0;
-    margin-right: 0;}
-
-.playwrite-ie-regular {
-  font-family: "Playwrite IE", cursive;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
+body {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.domine-bold{
-  font-family: "Domine", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+.playwrite-ie-regular {
+    font-family: "Playwrite IE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.domine-bold {
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .faculty-glyphic-regular {
-  font-family: "Faculty Glyphic", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body header div h2,
@@ -42,13 +45,16 @@ header div nav ul li a {
 body footer,
 body footer h2,
 body footer div,
-body footer div p{
+body footer div p {
     background-color: rgb(40, 58, 132);
     color: rgb(255, 255, 255);
 }
 
-body footer div p {margin-bottom: 0;  font-weight: bold ;
-    font-size: 14pt;}
+body footer div p {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 14pt;
+}
 
 p {
     margin-left: 5px;
@@ -83,7 +89,10 @@ h6 {
     margin-bottom: 30px;
     margin-left: 5px;
     margin-right: 8px;
+    font-size: 18pt;
 }
+
+
 
 
 header div h2 {
@@ -116,4 +125,16 @@ i {
     margin-right: 5px;
     background-color: rgb(40, 58, 132);
     vertical-align: middle;
+}
+
+.picture {
+    margin-right: 0cm;
+    margin-left: 3cm;
+    margin-top: 0.5cm;
+    margin-bottom: 1cm;
+    width: 35vw;
+    height: 60vh;
+    border: solid;
+    border-color: black;
+    border-width: 4px;   
 }
