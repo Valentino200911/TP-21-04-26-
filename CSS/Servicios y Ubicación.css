@@ -14,17 +14,17 @@
     font-style: normal;
 }
 
-.domine-bold{
-  font-family: "Domine", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+.domine-bold {
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .faculty-glyphic-regular {
-  font-family: "Faculty Glyphic", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -133,4 +133,9 @@ i {
 
 hr {
     border-color: white;
+}
+
+.embed-map {
+    border: solid black 4px !important;
+    margin-left: 420px;
 }

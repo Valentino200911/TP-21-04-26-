@@ -8,24 +8,24 @@
 }
 
 
-.playwrite-ie-regular{
-  font-family: "Playwrite IE", cursive;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
+.playwrite-ie-regular {
+    font-family: "Playwrite IE", cursive;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
 
-.domine-bold{
-  font-family: "Domine", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+.domine-bold {
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .faculty-glyphic-regular {
-  font-family: "Faculty Glyphic", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 body {
@@ -120,7 +120,7 @@ nav ul {
 
 .main-picture {
     width: 80vw;
-    height: 33vh;
+    height: 80vh;
     display: block;
     margin: auto;
     margin-bottom: 1cm;
@@ -139,4 +139,24 @@ i {
 
 hr {
     border-color: white;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(40, 58, 132);
+    border: solid black 4px;
+    margin-top: 8px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+footer a{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(40, 58, 132);
+    margin-top: 18.667px;
+    margin-left: 4px;
+    text-decoration: none;
+    color: rgb(40, 58, 132);
 }
