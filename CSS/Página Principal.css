@@ -42,6 +42,15 @@ header div nav ul li a {
     background-color: rgb(40, 58, 132);
 }
 
+ul li img {
+    border-radius: 25%;
+    border-width: solid 4px !important;
+    border-color: black;
+    width: 100px;
+    height: 75px;
+    margin-left: -10px;
+     margin-right: 0px;
+}
 
 body footer,
 body footer h2,
@@ -151,7 +160,7 @@ hr {
     cursor: pointer;
 }
 
-footer a{
+footer a {
     width: 50px;
     height: 50px;
     background-color: rgb(40, 58, 132);

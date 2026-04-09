@@ -113,6 +113,16 @@ nav ul li {
     font-size: 14pt;
 }
 
+ul li img {
+    border-radius: 25%;
+    border-width: solid 4px !important;
+    border-color: black;
+    width: 100px;
+    height: 75px;
+    margin-left: -15px !important;
+     margin-right: 0px;
+}
+
 div nav ul li a {
     color: wheat;
     margin-top: 0;
