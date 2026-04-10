@@ -34,11 +34,11 @@ body {
     margin-right: 0;
 }
 
-body header div h2,
-header div nav,
-header div nav ul,
-header div nav ul li,
-header div nav ul li a {
+body header h2,
+header nav,
+header nav ul,
+header nav ul li,
+header nav ul li a {
     background-color: rgb(40, 58, 132);
 }
 
