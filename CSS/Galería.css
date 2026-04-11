@@ -2,6 +2,7 @@
 /* PICTURE */
 
 .picture {
+    border-radius: 10%;
     margin-right: 0cm;
     margin-left: 3cm;
     margin-top: 0.5cm;
@@ -10,5 +11,12 @@
     height: 60vh;
     border: solid;
     border-color: black;
-    border-width: 4px;   
+    border-width: 4px;
+    cursor: pointer;   
+}
+
+.picture:hover{
+    filter: drop-shadow(0 0 30px wheat);
+    transform: scale(1.02);
+    transition: all 0.5s ease;
 }
