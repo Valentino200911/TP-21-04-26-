@@ -1,120 +1,5 @@
-* {
-    background-color: #1574d1;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: justify;
-    font-weight: 495;
-    line-height: 1.25cm;
-    color: white;
-}
 
-.playwrite-ie-regular {
-  font-family: "Playwrite IE", cursive;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.domine-bold{
-  font-family: "Domine", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.faculty-glyphic-regular {
-  font-family: "Faculty Glyphic", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-body {
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-
-
-ul li img {
-    border-radius: 25%;
-    border-width: solid 4px !important;
-    border-color: black;
-    width: 100px;
-    height: 75px;
-    margin-left: -15px !important;
-     margin-right: 0px;
-}
-
-
-
-body footer div p {
-    margin-bottom: 0;
-    font-weight: bold;
-    font-size: 14pt;
-}
-
-p {
-    margin-left: 5px;
-    margin-right: 8px;
-    font-size: 14pt;
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-
-h1 {
-    color: rgb(248, 248, 248);
-    font-weight: bold;
-    text-align: center;
-    font-style: italic;
-    margin-top: 47.5px;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 47.25px;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: rgb(248, 248, 248);
-    font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 30px;
-    margin-left: 5px;
-    margin-right: 8px;
-}
-
-
-header div h2 {
-    color: wheat;
-    margin-bottom: 0;
-}
-
-nav ul li a,
-nav ul li {
-    color: white;
-    font-weight: bold;
-    line-height: 2cm;
-    text-decoration: none;
-    list-style: none;
-    font-size: 14pt;
-}
-
-div nav ul li a {
-    color: wheat;
-    margin-top: 0;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
+/* FORM */
 
 label {
     font-weight: bold;
@@ -148,8 +33,7 @@ textarea{
     color: black;
     font-weight: bold;
     margin-top: 1cm;
-    margin-bottom: 0
-    
+    margin-bottom: 0;
 }
 
 
@@ -163,7 +47,6 @@ textarea{
     height: 15px;
     width: 30px;
     cursor: pointer;
-
 }
 
 #send {
@@ -198,11 +81,4 @@ textarea{
     cursor: pointer;
     font-size: 16pt;
     padding-right: 4px;
-}
-
-i {
-    font-size: 20pt;
-    margin-right: 5px;
-    background-color: rgb(40, 58, 132);
-    vertical-align: middle;
 }
