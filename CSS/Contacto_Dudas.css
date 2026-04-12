@@ -15,22 +15,22 @@ input{
     width: 8cm;
     height: 1cm;
     border: solid;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     margin-left: 5px;
     margin-right: 8px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     margin-top: 1cm;
     margin-bottom: 1cm;
 }
 
 textarea{
-    background-color: antiquewhite;
+    background-color: rgb(250, 235, 215);
     border: solid;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     margin-left: 8px;
     margin-right: 8px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     margin-top: 1cm;
     margin-bottom: 0;
@@ -40,7 +40,7 @@ textarea{
 :placeholder-shown {
     font-weight: 500;
     text-align: left;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .selector {
@@ -54,10 +54,10 @@ textarea{
     width: 3cm;
     height: 1.5cm;
     border: solid;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     margin-left: 5px;
     margin-right: 128px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
     margin-top: 2cm;
@@ -71,10 +71,10 @@ textarea{
     width: 3cm;
     height: 1.5cm;
     border: solid;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     margin-left: 5px;
     margin-right: 8px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
     margin-top: 2cm;
@@ -82,3 +82,5 @@ textarea{
     font-size: 16pt;
     padding-right: 4px;
 }
+
+
