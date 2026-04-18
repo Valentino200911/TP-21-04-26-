@@ -40,7 +40,14 @@
 
                 <ul class="navlist navbar">
 
-                    <li><img src="../IMÁGENES/Logo.png" alt="Cabañas Aguaribay" class="logo"></li>
+                    <li>
+                        <a href="Pagina_Principal.html">
+                        
+                        <img src="../IMÁGENES/Logo.png" alt="Cabañas Aguaribay" class="logo"></li>
+
+                        </a>
+
+                    <li>
 
                     <li>
                         <i class="fa-solid fa-bars" style="color: rgb(0, 147, 255);"></i>
@@ -83,7 +90,7 @@
 
         <section>
 
-            <h2 class="faculty-glyphic-regular">Para contactarse por medio de esta página, llene el siguiente formulario:</h2>
+            <h2 class="faculty-glyphic-regular">Para reservar por medio de esta página, llene el siguiente formulario:</h2>
 
             <div>
 
@@ -93,7 +100,7 @@
 
                         <label for="Nombre y Apellido:" class="faculty-glyphic-regular">Nombre y Apellido:</label>
 
-                        <input type="text" id="Nombre y Apellido:" name="Nombre y Apellido:" placeholder="Escriba aquí">
+                        <input type="text" id="Nombre y Apellido:" name="Nombre y Apellido:" placeholder="Escriba aquí" required>
 
                     </div>
 
@@ -101,7 +108,7 @@
 
                         <label for="E-mail:" class="faculty-glyphic-regular">E-mail:</label>
 
-                        <input type="email" id="E-mail:" placeholder="Escriba aquí">
+                        <input type="email" id="E-mail:" placeholder="Escriba aquí" required>
 
                     </div>
 
@@ -109,7 +116,7 @@
                         
                         <label for="Número Telefónico:" class="faculty-glyphic-regular">Número Telefónico:</label>
 
-                        <input type="number" id="Número Telefónico" placeholder="Escriba aquí">
+                        <input type="number" id="Número Telefónico" placeholder="+54 9 123 456-7890" required>
                     
                     </div>
 
@@ -119,11 +126,11 @@
                         
                         <label for="Cabaña 1:" class="faculty-glyphic-regular">Cabaña 1</label>
 
-                        <input type="radio" id="Cabaña 1" name="Cabaña" value="1" class="selector">
+                        <input type="radio" id="Cabaña 1" name="Cabaña" value="1" class="selector" required>
 
                         <label for="Cabaña 2:" class="faculty-glyphic-regular">Cabaña 2</label>
 
-                        <input type="radio" id="Cabaña 2" name="Cabaña" value="2" class="selector">
+                        <input type="radio" id="Cabaña 2" name="Cabaña" value="2" class="selector" required>
 
                     </div>
 
@@ -131,7 +138,7 @@
 
                         <label for="Fecha de Ingreso:" class="faculty-glyphic-regular">Fecha de Ingreso:</label>
 
-                        <input type="date" id="Fecha de Ingreso:" placeholder="Seleccione aquí">
+                        <input type="date" id="Fecha de Ingreso:" placeholder="Seleccione aquí" required>
 
                     </div>
 
@@ -139,7 +146,7 @@
 
                         <label for="Fecha de Egreso:" class="faculty-glyphic-regular">Fecha de Egreso:</label>
 
-                        <input type="date" id="Fecha de Egreso:" placeholder="Seleccione aquí">
+                        <input type="date" id="Fecha de Egreso:" placeholder="Seleccione aquí" required>
 
                     </div>
 
@@ -154,31 +161,31 @@
 
                         <label for="0" class="faculty-glyphic-regular">0</label>
 
-                        <input type="checkbox" id="0" class="selector">
+                        <input type="radio" id="0" name="A" value="0" class="selector">
 
                         <label for="1" class="faculty-glyphic-regular">1</label>
 
-                        <input type="checkbox" id="1" class="selector">
+                        <input type="radio" id="1" name="A" value="1" class="selector">
 
                         <label for="2" class="faculty-glyphic-regular">2</label>
 
-                        <input type="checkbox" id="2" class="selector">
+                        <input type="radio" id="2"   name="A"  value="2"  class="selector">
 
                         <label for="3" class="faculty-glyphic-regular">3</label>
 
-                        <input type="checkbox" id="3" class="selector">
+                        <input type="radio" id="3"  name="A"  value="3" class="selector">
 
                         <label for="4" class="faculty-glyphic-regular">4</label>
 
-                        <input type="checkbox" id="4" class="selector">
+                        <input type="radio" id="4" name="A" value="4" class="selector">
 
                         <label for="5" class="faculty-glyphic-regular">5</label>
 
-                        <input type="checkbox" id="5" class="selector">
+                        <input type="radio" id="5" name="A" value="5"  class="selector">
 
                         <label for="6" class="faculty-glyphic-regular">6</label>
 
-                        <input type="checkbox" id="6" class="selector">
+                        <input type="radio" id="6" name="A"  value="6" class="selector">
 
                     </div>
 
@@ -196,6 +203,28 @@
                     <button type="reset" id="reset" class="faculty-glyphic-regular">Reiniciar</button>
 
                 </form>
+
+            </div>
+
+<br>
+
+            <div>
+
+                <h2 class="faculty-glyphic-regular">Para contactarnos por otros motivos, llene el siguiente formulario:</h2>
+
+               <div>
+
+                <fieldset>
+
+                    <label for="">Seleccione una de estas opciones</label>
+
+                   <option value="select" disabled selected>Seleccione una de estas opciones</option>
+                   <option value="buisness" disabled selected>Razones Comerciales</option>
+
+                </fieldset>
+
+               </div>
+
 
             </div>
 

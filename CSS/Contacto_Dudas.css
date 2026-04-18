@@ -3,37 +3,29 @@
 
 label {
     font-weight: bold;
-    margin-left: 5px;
-    margin-right: 8px;
-    margin-top: 1cm;
-    margin-bottom: 1cm;
-    font-size: 16pt;
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    font-size: 21px;
 }
 
 input{
     background-color: antiquewhite;
-    width: 8cm;
-    height: 1cm;
+    width: 20rem;
+    height: 2rem;
+    margin: 2rem 0.5rem 2rem 0.5rem;
     border: solid;
     border-color: rgb(0, 0, 0);
-    margin-left: 5px;
-    margin-right: 8px;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    margin-top: 1cm;
-    margin-bottom: 1cm;
 }
 
 textarea{
     background-color: rgb(250, 235, 215);
     border: solid;
     border-color: rgb(0, 0, 0);
-    margin-left: 8px;
-    margin-right: 8px;
+    margin: 2rem 0.5rem 0rem 0.5rem;
     color: rgb(0, 0, 0);
     font-weight: bold;
-    margin-top: 1cm;
-    margin-bottom: 0;
+
 }
 
 
@@ -44,43 +36,39 @@ textarea{
 }
 
 .selector {
-    height: 15px;
-    width: 30px;
+    height: 1rem;
+    width: 2rem;
     cursor: pointer;
 }
 
 #send {
     background-color: rgb(8, 224, 80);
-    width: 3cm;
-    height: 1.5cm;
+    width: 7rem;
+    height: 3.5rem;
     border: solid;
     border-color: rgb(0, 0, 0);
-    margin-left: 5px;
-    margin-right: 128px;
+    margin: 4rem 20rem 2rem 0.5rem;
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
-    margin-top: 2cm;
     cursor: pointer;
-    font-size: 16pt;
+    font-size: 21px;
     padding: 1px 0.75px 0px 0px;
 }
 
 #reset {
-    background-color: rgb(224, 80, 8);
-    width: 3cm;
-    height: 1.5cm;
+    background-color: rgb(224, 55, 8);
+    width: 7rem;
+    height: 3.5rem;
     border: solid;
     border-color: rgb(0, 0, 0);
-    margin-left: 5px;
-    margin-right: 8px;
+    margin: 2rem 0.5rem 2rem 0.5rem;
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-align: center;
-    margin-top: 2cm;
     cursor: pointer;
-    font-size: 16pt;
-    padding-right: 4px;
+    font-size: 21px;
+    padding: 1px 0.75px 0px 0px;
 }
 
 

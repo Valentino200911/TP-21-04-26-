@@ -4,17 +4,25 @@
     text-decoration: none;
     list-style: circle;
     font-weight: bold;
-    line-height: 1cm;
-    font-size: 14pt;
+    line-height: 2rem;
+    font-size: 18.5px;
     margin: 0;
 }
 
-.warning article p, .warning article h2 {
+.warning {
     font-weight: bold;
     color: rgb(173, 0, 35);
     font-weight: bold ; 
     margin-bottom: 0;
-    font-size: 16pt;
+    font-size: 21px;
+}
+
+.warning article h2, .warning article p {
+    font-weight: bold;
+    color: rgb(173, 0, 35);
+    font-weight: bold ; 
+    margin-bottom: 0;
+    font-size: 18.5px;
 }
 
 section.added{
