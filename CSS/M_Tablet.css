@@ -1,11 +1,25 @@
-@media (min-width: 769px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1024px) {
     /* PÁGINA PRINCIPAL */
 
-    /* CABAÑAS */
+    ul.navlist {
+        gap: 0.5rem;
+        justify-content: center;
+        align-items: flex-start;
+    }
 
-    /* SERVICIOS TURÍSTICOS Y UBICACIÓN */
+    .main-picture {
+        border-radius: 7.5%;
+        width: 90vw;
+        height: 45vh;
+    }
 
     /* GALERÍA */
 
-    /* CONTACTO Y DUDAS */
+    .picture {
+    border-radius: 7.5%;
+    width: 44vw;
+    height: 44vh;
+    margin: auto;
+    }
+
 }

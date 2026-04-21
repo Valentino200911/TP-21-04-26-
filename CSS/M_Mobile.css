@@ -1,4 +1,4 @@
-@media (min-width: 0px) and (max-width: 768px) {
+@media (min-width: 0px) and (max-width: 767px) {
     /* PÁGINA PRINCIPAL */
 
     ul.navlist{
@@ -86,7 +86,7 @@ label.faculty-glyphic-regular, h4.faculty-glyphic-regular{
 }
 
 .warning {
-    font-size: 1.05rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -94,6 +94,18 @@ input{
     display: block;
     align-self: center;
     margin: 0.25rem auto 0.25rem auto;
+}
+
+div.selector-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.5rem;
+    align-items: center;
+    gap: 0.1rem;
+}
+
+.selector {
+    margin-top: 2.25rem;
 }
 
 div.formgroup select, option{
@@ -112,14 +124,19 @@ div.formgroup select, option{
 }
 
 div.areacontainer label{
-    margin-top: 2rem;
+    margin-top: 0.5rem;
     text-align: left;
+}
+
+textarea{
+    margin: 0.25rem auto 0.25rem auto;
 }
 
 .buttoncontainer{
     display: flex;
     gap: 12rem;
     margin: 1rem 0 1rem 0.5rem;
+    align-items: center;
     
 }
 
@@ -127,14 +144,12 @@ div.areacontainer label{
     width: 3.5rem;
     height: 3rem;
     font-size: 0.75rem;
-    vertical-align: middle;
 }
 
 #reset {
     width: 3.5rem;
     height: 3rem;
     font-size: 0.75rem;
-    vertical-align: middle;
     padding: 1px 2px 2px 0px;
 }
 

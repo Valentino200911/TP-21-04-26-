@@ -124,9 +124,12 @@
 
                     </div>
 
-                    <div>
 
-                        <h4 class="faculty-glyphic-regular">Cabaña:</h4>
+                    <h4 class="faculty-glyphic-regular">Cabaña:</h4>
+
+                    <!-- La class "selector-container" está diseñada sólo para responsive mobile -->
+
+                    <div class="selector-container">
 
                         <label for="Cabaña 1:" class="faculty-glyphic-regular">Cabaña 1</label>
 
@@ -157,49 +160,55 @@
                     <div>
 
                         <h4 class="faculty-glyphic-regular">Número de Pasajeros </h4>
-
+    
                         <p class="warning"> <i class="fa-solid fa-triangle-exclamation warning"
                                 style="color: #b70d0d; background-color: rgb(21, 116, 209) ;"></i>Verifique la Capacidad
                             Máxima de cada Cabaña en el Apartado "Cabañas"
                         </p>
-
-
-
-                        <label for="0" class="faculty-glyphic-regular">0</label>
-
-                        <input type="radio" id="0" name="A" value="0" class="selector">
-
-                        <label for="1" class="faculty-glyphic-regular">1</label>
-
-                        <input type="radio" id="1" name="A" value="1" class="selector">
-
-                        <label for="2" class="faculty-glyphic-regular">2</label>
-
-                        <input type="radio" id="2" name="A" value="2" class="selector">
-
-                        <label for="3" class="faculty-glyphic-regular">3</label>
-
-                        <input type="radio" id="3" name="A" value="3" class="selector">
-
-                        <label for="4" class="faculty-glyphic-regular">4</label>
-
-                        <input type="radio" id="4" name="A" value="4" class="selector">
-
-                        <label for="5" class="faculty-glyphic-regular">5</label>
-
-                        <input type="radio" id="5" name="A" value="5" class="selector">
-
-                        <label for="6" class="faculty-glyphic-regular">6</label>
-
-                        <input type="radio" id="6" name="A" value="6" class="selector">
+    
+                        <div class="selector-container">
+    
+                            <label for="0" class="faculty-glyphic-regular">0</label>
+    
+                            <input type="radio" id="0" name="A" value="0" class="selector">
+    
+                            <label for="1" class="faculty-glyphic-regular">1</label>
+    
+                            <input type="radio" id="1" name="A" value="1" class="selector">
+    
+                            <label for="2" class="faculty-glyphic-regular">2</label>
+    
+                            <input type="radio" id="2" name="A" value="2" class="selector">
+    
+                            <label for="3" class="faculty-glyphic-regular">3</label>
+    
+                            <input type="radio" id="3" name="A" value="3" class="selector">
+    
+                            <label for="4" class="faculty-glyphic-regular">4</label>
+    
+                            <input type="radio" id="4" name="A" value="4" class="selector">
+    
+                            <label for="5" class="faculty-glyphic-regular">5</label>
+    
+                            <input type="radio" id="5" name="A" value="5" class="selector">
+    
+                            <label for="6" class="faculty-glyphic-regular">6</label>
+    
+                            <input type="radio" id="6" name="A" value="6" class="selector">
+    
+                        </div>
 
                     </div>
 
-                    <div class="areacontainer">
-
-                        <label for="Comentario:" class="faculty-glyphic-regular">Comentario:</label>
-
-                        <textarea id="Comentario:" placeholder="Escriba aquí"></textarea>
+                    <div>
+                        
+                        <h4 class="faculty-glyphic-regular">Comentario:</h4>
+    
+                        <div class="areacontainer">
+    
+                            <textarea id="Comentario:" placeholder="Escriba aquí"></textarea>
+    
+                        </div>
 
                     </div>
 
@@ -231,14 +240,20 @@
 
                 <form>
 
-                    <div>
-
                         <div>
 
                             <label for="Nombre y Apellido:" class="faculty-glyphic-regular">Nombre y Apellido:</label>
 
                             <input type="text" id="Nombre y Apellido:" name="Nombre y Apellido:"
                                 placeholder="Escriba aquí" required>
+
+                        </div>
+
+                        <div>
+
+                            <label for="E-mail:" class="faculty-glyphic-regular">E-mail:</label>
+
+                            <input type="email" id="E-mail:" placeholder="Escriba aquí" required>
 
                         </div>
 
@@ -263,17 +278,20 @@
 
                             </select>
 
+                        </div>
+
+                        <div>
+
+                            <h4 class="faculty-glyphic-regular">Comentario:</h4>
+    
                             <div class="areacontainer">
-
-                                <label for="Comentario:" class="faculty-glyphic-regular">Comentario:</label>
-
-                                <textarea id="Comentario:" placeholder="Escriba aquí" cols="48" rows="1"
-                                    required></textarea>
-
+    
+                                <textarea id="Comentario:" placeholder="Escriba aquí" required></textarea>
+    
                             </div>
 
                         </div>
-
+                        
                         <div class="buttoncontainer">
 
                             <button type="submit" id="send" class="faculty-glyphic-regular">Enviar</button>
