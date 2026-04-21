@@ -38,9 +38,10 @@ div.mapcontainer{
     width: 20rem;
     height: 40rem;
     box-sizing: border-box;
-    cursor: pointer;
     margin-bottom: 35px;
-    box-shadow: 10px 10px 5px rgba(50, 50, 50, 0.3)
+    box-shadow: 10px 10px 5px rgba(50, 50, 50, 0.3);
+    justify-content: center;
+    align-items: center;
 }
 
 .card:hover{
@@ -54,6 +55,7 @@ div.mapcontainer{
     font-size: 20px;
     background-color: rgb(65, 152, 94);
     text-align: center;
+    text-decoration: none;
 }
 
 h2,
@@ -73,13 +75,13 @@ h6 {
     display: block;
     text-align: center;
     font-weight: 499;
+     text-decoration: none;
 }
 
-.cardimage{
+img.cardimage{
 width: 55%;
 height: 50%;
-align-self: center;
-margin: 0;
+justify-items: center;
 border-radius: 5%;
 border: solid;
 border-color:rgb(174, 23, 23) ;
@@ -92,13 +94,14 @@ border-width: 2px;
     height: 3rem;
     border: solid;
     border-color: rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
     cursor: pointer;
     font-size: 16px;
     padding-right: 4px;
     align-self: center;
+     text-decoration: none;
 }
 
 a.add{

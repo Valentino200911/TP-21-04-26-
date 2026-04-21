@@ -1,5 +1,122 @@
-@media screen and (min-width 360px) (max-width 480px) {
-    body {
-        background-color: rgb(40, 58, 132)
+@media (min-width: 0px) and (max-width: 768px) {
+    /* PÁGINA PRINCIPAL */
+
+    ul.navlist{
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+        margin: 0;
+        align-items: center;
+        padding: 0
     }
+
+    .logo {
+        border-radius: 10%;
+        border-width: 4px;
+        border-color: rgb(0, 0, 0);
+        width: 8rem;
+        height: 4rem;
+        margin: 0;
+    }
+
+    i {
+        font-size: 1.25rem;
+        margin-right: 0.1rem;
+        background-color: rgb(40, 58, 132);
+        vertical-align: middle;
+    }
+
+    h2.faculty-glyphic-regular {
+         font-size: 1.6rem;
+         text-align: center;
+     }
+    
+    h3.faculty-glyphic-regular {
+         font-size: 1.45rem;
+     }
+    
+    h4.faculty-glyphic-regular {
+        font-size: 1.3rem;
+    }
+    
+    p.faculty-glyphic-regular {
+         font-size: 1.2rem;
+         margin-bottom: 1rem;
+    
+    }
+
+    .main-picture {
+        border-radius: 5%;
+        width: 90vw;
+        height: 36vh;
+        display: block;
+        margin: auto;
+        margin-bottom: 2rem;
+        border: solid;
+        border-color: rgb(0, 0, 0);
+        border-width: 4px;
+        object-fit: fill;
+    }
+
+    footer div p {
+     color: rgb(245, 222, 179);
+     font-weight: bold;
+     font-size: 1.2rem;
+     display: flex;
+     flex-direction: column;
+     }
+
+    .media{
+        border-radius: 20%;
+        width: 3rem;
+        height: 3rem;
+        background-color: rgb(40, 58, 132);
+        border: solid rgb(0, 0, 0) 1px;
+        margin: 1rem 0.5rem 1rem 0.5rem;
+        cursor: pointer;
+    }
+
+    /* SERVICIOS TURÍSTICOS Y UBICACIÓN */
+
+    .embed-map {
+    border-radius: 5%;
+    border: solid rgb(0, 0, 0) 4px !important;
+    height: 32rem;
+    width: 48rem;
+    margin-bottom: 1rem;
+}
+
+
+    /* GALERÍA */
+
+    .picture {
+    border-radius: 5%;
+    width: 90vw;
+    height: 36vh;
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 4px;
+    cursor: pointer; 
+    object-fit: cover;
+    margin: 0 0 0.25rem 0 ;
+}
+
+    /* CONTACTO Y DUDAS */
+
+label.faculty-glyphic-regular, h4.faculty-glyphic-regular{
+    margin: 0 0.5rem 0 0.5rem;
+    font-size: 1.25rem;
+  
+}
+
+input, select{
+    margin-left: 3rem;
+    display: block;
+    align-self: center;
+}
+
+
+
+
+
 }

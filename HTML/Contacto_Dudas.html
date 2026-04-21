@@ -90,7 +90,7 @@
 
         <section>
 
-            <h2 class="faculty-glyphic-regular">Para reservar por medio de esta página, llene el siguiente formulario:</h2>
+            <h2  id="Contacto y Dudas" class="faculty-glyphic-regular">Para reservar por medio de esta página, llene el siguiente formulario:</h2>
 
             <div>
 
@@ -122,7 +122,7 @@
 
                     <div> 
 
-                        <p style="font-weight: bold ; margin-bottom: 0; font-size: 16pt;"class="faculty-glyphic-regular">Cabaña:</p>
+                        <h4 class="faculty-glyphic-regular">Cabaña:</h4>
                         
                         <label for="Cabaña 1:" class="faculty-glyphic-regular">Cabaña 1</label>
 
@@ -152,12 +152,12 @@
 
                     <div>
 
-                        <p style="font-weight: bold ; margin-bottom: 0; font-size: 16pt;" class="faculty-glyphic-regular">Número de Pasajeros
-                        </p>
+                        <h4 class="faculty-glyphic-regular">Número de Pasajeros </h4>
 
                         <p class="warning"> <i class="fa-solid fa-triangle-exclamation" style="color: #b70d0d; background-color: rgb(21, 116, 209) ;" ></i>Verifique la Capacidad Máxima de cada Cabaña en el Apartado "Cabañas"
                         </p>
 
+                        
 
                         <label for="0" class="faculty-glyphic-regular">0</label>
 
@@ -189,9 +189,9 @@
 
                     </div>
 
-                    <div style="display: flex;">
+                    <div class="areacontainer">
 
-                        <label for="Comentario:" class="faculty-glyphic-regular" style="vertical-align: middle;">Comentario:</label>
+                        <label for="Comentario:" class="faculty-glyphic-regular">Comentario:</label>
 
                         <textarea  id="Comentario:" placeholder="Escriba aquí" cols="48" rows="1"></textarea>
 
@@ -206,28 +206,68 @@
 
             </div>
 
+        </section>
+
 <br>
 
+<hr>
+
+
+        <section>
+        
             <div>
-
+        
                 <h2 class="faculty-glyphic-regular">Para contactarnos por otros motivos, llene el siguiente formulario:</h2>
-
-               <div>
-
-                <fieldset>
-
-                    <label for="">Seleccione una de estas opciones</label>
-
-                   <option value="select" disabled selected>Seleccione una de estas opciones</option>
-                   <option value="buisness" disabled selected>Razones Comerciales</option>
-
-                </fieldset>
-
-               </div>
-
-
+        
+                <form>
+        
+                    <div>
+        
+                        <div>
+        
+                            <label for="Nombre y Apellido:" class="faculty-glyphic-regular">Nombre y Apellido:</label>
+        
+                            <input type="text" id="Nombre y Apellido:" name="Nombre y Apellido:" placeholder="Escriba aquí"
+                                required>
+        
+                        </div>
+        
+                        <div class="formgroup">
+        
+                            <label for="reason" class="faculty-glyphic-regular">Motivo de Contacto:</label>
+        
+                            <select name="reason" id="reason" required class="faculty-glyphic-regular">
+        
+                                <label for="reason">Motivo de Contacto</label>
+        
+                                <option value="" disabled selected  class="faculty-glyphic-regular" >Seleccione una de estas opciones</option>
+        
+                                <option value="buisness" class="faculty-glyphic-regular">Razones Comerciales</option>
+        
+                                <option value="prom" class="faculty-glyphic-regular">Promoción</option>
+        
+                                <option value="problem" class="faculty-glyphic-regular">Problemáticas</option>
+        
+                                <option value="suggest" class="faculty-glyphic-regular">Sugerencias</option>
+        
+                            </select>
+        
+                            <div class="areacontainer">
+        
+                                <label for="Comentario:" class="faculty-glyphic-regular">Comentario:</label>
+        
+                                <textarea id="Comentario:" placeholder="Escriba aquí" cols="48" rows="1" required></textarea>
+        
+                            </div>
+        
+                            <button type="submit" id="send" class="faculty-glyphic-regular">Enviar</button>
+        
+                            <button type="reset" id="reset" class="faculty-glyphic-regular">Reiniciar</button>
+        
+                </form>
+        
             </div>
-
+        
         </section>
 
     </main>
