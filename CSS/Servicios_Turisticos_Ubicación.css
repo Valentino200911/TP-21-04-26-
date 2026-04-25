@@ -11,6 +11,7 @@ div.mapcontainer{
     border: solid rgb(0, 0, 0) 4px !important;
     height: 32rem;
     width: 48rem;
+    margin-bottom: 2rem;
 }
 
 /* CARD */
@@ -21,8 +22,7 @@ div.mapcontainer{
     align-items: center;
     gap: 20px;
     flex-direction: row;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin: 1.5rem 0.5rem;
     justify-content: space-evenly;
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -36,9 +36,9 @@ div.mapcontainer{
     border: 4px solid rgb(255, 255, 255);
     border-radius: 10%;
     width: 20rem;
-    height: 40rem;
+    height: 45rem;
     box-sizing: border-box;
-    margin-bottom: 35px;
+    margin-bottom: 2rem;
     box-shadow: 10px 10px 5px rgba(50, 50, 50, 0.3);
     justify-content: center;
     align-items: center;
@@ -65,7 +65,7 @@ h5,
 h6 {
     color: rgb(248, 248, 248);
     font-weight: bold;
-    margin: 0 0.5rem 2rem 0.5rem;
+    margin: 0  0.5rem 0.5rem 0.5rem;
 }
 
 
@@ -79,7 +79,7 @@ h6 {
 }
 
 img.cardimage{
-width: 55%;
+width: 90%;
 height: 50%;
 justify-items: center;
 border-radius: 5%;
@@ -88,22 +88,31 @@ border-color:rgb(174, 23, 23) ;
 border-width: 2px;
 }
 
-.info{
+#info{
     background-color: rgb(224, 80, 8);
-    width: 9rem;
-    height: 3rem;
+    min-width: 6rem;
+    width: auto;
+    height: 3.25rem;
     border: solid;
     border-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
     cursor: pointer;
-    font-size: 16px;
-    padding-right: 4px;
+    font-size: 1rem;
     align-self: center;
     text-decoration: none;
 }
 
 a.add{
     text-decoration: none;
+}
+
+.actlist{
+    text-decoration: none;
+    list-style: circle;
+    font-weight: bold;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    margin: 0;
 }
