@@ -1,4 +1,3 @@
-
 /* PICTURE */
 
 .picture {
@@ -9,17 +8,18 @@
     border: solid;
     border-color: rgb(0, 0, 0);
     border-width: 4px;
-    cursor: pointer; 
+    cursor: pointer;
     object-fit: cover;
-    margin: 0 0 1.5rem 1rem;  
+    margin: 0 0 1.5rem 1rem;
 }
 
-.picture:hover{
+.picture:hover {
     filter: drop-shadow(0 0 30px rgb(245, 222, 179));
     transform: scale(1.02);
     transition: all 0.5s ease;
 }
-.divstyle{
+
+.divstyle {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,11 +29,8 @@
 
 /* SERVICES */
 
-ul.serviceslist{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
+ul.serviceslist {
+    display: block;
     text-decoration: none;
     list-style: none;
     font-weight: bold;
@@ -44,10 +41,10 @@ ul.serviceslist{
     text-align: center;
 }
 
- div p.faculty-glyphic-regular{
+div p.faculty-glyphic-regular {
     padding: 0 12rem;
 }
 
-.spec_title{
+.spec_title {
     margin: 2rem 0;
 }

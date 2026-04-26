@@ -1,14 +1,14 @@
-
 /* FORM */
 
-label.faculty-glyphic-regular, div h4.faculty-glyphic-regular{
+label.faculty-glyphic-regular,
+div h4.faculty-glyphic-regular {
     margin: 0.5rem auto;
     font-size: 1.25rem;
     display: block;
     text-align: center !important;
 }
 
-input{
+input {
     background-color: rgb(250, 235, 215);
     width: 36rem;
     height: 2rem;
@@ -25,18 +25,18 @@ input{
 .warning {
     font-weight: bold;
     color: rgb(173, 0, 35);
-    font-weight: bold ; 
+    font-weight: bold;
     margin-bottom: 0;
     font-size: 1.4rem;
     text-align: center;
 }
 
-.areacontainer{
+.areacontainer {
     display: flex;
     vertical-align: middle;
 }
 
-textarea{
+textarea {
     background-color: rgb(250, 235, 215);
     border: solid;
     border-color: rgb(0, 0, 0);
@@ -58,8 +58,9 @@ textarea{
     font-size: 1rem;
 }
 
-div.formgroup select, option{
-     width: 36rem;
+div.formgroup select,
+option {
+    width: 36rem;
     height: 2rem;
     background-color: rgb(250, 235, 215);
     color: black;
@@ -70,7 +71,7 @@ div.formgroup select, option{
     display: block;
     align-self: center;
     margin: 2rem auto;
-    
+
 }
 
 .selector {
@@ -81,7 +82,7 @@ div.formgroup select, option{
     margin: 2.5rem 0 2.5rem 0;
 }
 
-div.selector-container{
+div.selector-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,18 +90,18 @@ div.selector-container{
     gap: 2rem;
 }
 
-.text_selector{
+.text_selector {
     padding: 0 34% !important;
 }
 
-.buttoncontainer{
+.buttoncontainer {
     display: flex;
     margin: 1rem auto;
     align-items: center;
     justify-content: center;
     gap: 10rem;
-    
-    
+
+
 }
 
 #send {
@@ -130,5 +131,3 @@ div.selector-container{
     cursor: pointer;
     font-size: 1.5rem;
 }
-
-
