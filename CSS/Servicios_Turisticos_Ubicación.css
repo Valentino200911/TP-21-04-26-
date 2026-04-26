@@ -1,25 +1,25 @@
 /* VARIOUS */
 
-div.mapcontainer {
+div.map_container {
     display: flex;
     justify-content: center;
 }
 
-.embed-map {
+.embed_map {
     border-radius: 10%;
     border: solid rgb(0, 0, 0) 4px !important;
     height: 32rem;
     width: 48rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
 /* CARD */
 
-.cardbody {
+.card_container {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
     flex-direction: row;
     margin: 1.5rem 0.5rem;
     justify-content: space-evenly;
@@ -37,9 +37,9 @@ div.mapcontainer {
     width: 20rem;
     height: 45rem;
     box-sizing: border-box;
-    margin-bottom: 2rem;
+    margin: 1.25rem 0;
     box-shadow: 10px 10px 5px rgba(50, 50, 50, 0.3);
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -49,9 +49,9 @@ div.mapcontainer {
     transition: all 0.5s ease;
 }
 
-.cardtitle {
+.card_title {
     display: block;
-    font-size: 20px;
+    font-size: 1.25rem;
     background-color: rgb(65, 152, 94);
     text-align: center;
     text-decoration: none;
@@ -70,16 +70,17 @@ h6 {
 
 .cardtext {
     overflow: hidden;
-    font-size: 18px;
+    font-size: 1rem;
     display: block;
     text-align: center;
     font-weight: 499;
     text-decoration: none;
+    margin: 0 0.25rem;
 }
 
-img.cardimage {
+img.card_image {
     width: 90%;
-    height: 50%;
+    height: 70%;
     justify-items: center;
     border-radius: 5%;
     border: solid;
@@ -103,11 +104,7 @@ img.cardimage {
     text-decoration: none;
 }
 
-a.add {
-    text-decoration: none;
-}
-
-.actlist {
+.activities_list {
     text-decoration: none;
     list-style: circle;
     font-weight: bold;

@@ -8,9 +8,8 @@
     border: solid;
     border-color: rgb(0, 0, 0);
     border-width: 4px;
-    cursor: pointer;
     object-fit: cover;
-    margin: 0 0 1.5rem 1rem;
+    margin: 0 0 1.5rem 1.5rem;
 }
 
 .picture:hover {
@@ -29,9 +28,8 @@
 
 /* SERVICES */
 
-ul.serviceslist {
+ul.services_list {
     display: block;
-    text-decoration: none;
     list-style: none;
     font-weight: bold;
     line-height: 1.5rem;
@@ -42,7 +40,7 @@ ul.serviceslist {
 }
 
 div p.faculty-glyphic-regular {
-    padding: 0 12rem;
+    padding: 0 14%;
 }
 
 .spec_title {

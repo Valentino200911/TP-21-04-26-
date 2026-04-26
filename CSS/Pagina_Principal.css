@@ -1,4 +1,4 @@
-/* EN ESTE CSS SE ENCUENTRAN LOS SELECTORES UNIVERSALES DE TODO EL SITIO */
+/* EN ESTE CSS SE ENCUENTRAN LOS SELECTORES UNIVERSALES DE TODO EL SITIO Y LOS ESPECÍFICOS DE index.html*/
 
 /* UNIVERSALS */
 
@@ -61,12 +61,12 @@ ul.navlist {
     text-decoration: none;
     list-style: none;
     font-size: 1.2rem;
-    gap: 2.5rem;
+    gap: 1.5rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding-top: 2.5rem;
+    padding: 2.5rem 0 0 0;
 }
 
 nav ul li a {
@@ -137,7 +137,7 @@ p.faculty-glyphic-regular {
 
 /* HEROSECTION */
 
-.main-picture {
+.main_picture {
     border-radius: 10%;
     width: 80vw;
     max-width: 100%;
@@ -150,7 +150,7 @@ p.faculty-glyphic-regular {
     object-fit: fill;
 }
 
-.main-picture:hover {
+.main_picture:hover {
     filter: drop-shadow(0 0 30px rgb(245, 222, 179));
     transform: scale(1.02);
     transition: all 0.5s ease;
